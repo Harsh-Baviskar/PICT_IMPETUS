@@ -34,7 +34,7 @@ const INITIAL_TRADES = [
 ];
 
 export function BuyerDashboard() {
-  const [trades] = useState(INITIAL_TRADES);
+  const [trades, setTrades] = useState(INITIAL_TRADES);
   const [isCreating, setIsCreating] = useState(false);
 
   return (

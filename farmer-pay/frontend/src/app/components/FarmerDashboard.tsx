@@ -8,6 +8,7 @@ const MOCK_INCOMING = [
 ];
 
 export function FarmerDashboard() {
+  const [isUploading, setIsUploading] = useState(false);
   const [proofUploaded, setProofUploaded] = useState(false);
 
   return (

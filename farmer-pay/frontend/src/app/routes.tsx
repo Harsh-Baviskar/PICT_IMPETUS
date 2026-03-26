@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router";
 import { AppShell } from "./components/AppShell";
 import { LandingPage } from "./components/LandingPage";
 import { BuyerDashboard } from "./components/BuyerDashboard";

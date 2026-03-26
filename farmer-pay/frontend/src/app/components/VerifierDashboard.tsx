@@ -128,7 +128,7 @@ export function VerifierDashboard() {
                   </td>
                   <td className="py-4 px-4 align-top">
                     <div className="flex gap-2">
-                      {trade.proofUrls.map((_, i) => (
+                      {trade.proofUrls.map((url, i) => (
                         <div key={i} className="w-10 h-10 rounded bg-[#8CC7C4]/20 border border-[#8CC7C4]/40 flex items-center justify-center text-[#3A8B95] cursor-pointer hover:bg-[#8CC7C4]/40">
                           <FileCheck className="w-5 h-5" />
                         </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useParams } from "react-router";
+import { useParams, Link } from "react-router";
 import { ArrowLeft, CheckCircle2, Circle, Clock, AlertTriangle, Download, FileText, Lock } from "lucide-react";
 
 const STATUS_STEPS = ["Agreement Started", "Payment Secured", "Crop Delivered", "Money Sent"];
