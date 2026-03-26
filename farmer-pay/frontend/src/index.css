@@ -1,3 +1,9 @@
+@import "tailwindcss";
+
+body {
+  background-color: #F7F9FB;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
