@@ -1,0 +1,23 @@
+[algokit]
+min_version = "v2.0.0"
+
+[project]
+type = "contract"
+name = "farmer-escrow"
+artifacts = "artifacts"
+
+[project.run]
+test = "python -m pytest tests/ -v"
+
+[project.deploy]
+environment_secrets = ["DEPLOYER_MNEMONIC"]
+
+[project.deploy.localnet]
+environment_secrets = []
+
+[project.deploy.testnet]
+command = "python deploy.py"
+environment_secrets = ["DEPLOYER_MNEMONIC"]
+
+[project.deploy.mainnet]
+environment_secrets = ["DEPLOYER_MNEMONIC"]
